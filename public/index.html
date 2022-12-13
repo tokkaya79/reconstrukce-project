@@ -2,42 +2,289 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Web site Reconstrukce"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <title>Reconstrukce</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <header class="header" id="home">
+    <div class="container">
+        <div class="header__top">
+            <div class="menu">
+                <a href="#" class="logo">
+                    Rekonstrukce
+                </a>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#about" class="menu__link">O nás</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#price" class="menu__link">Cenik</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contact" class="menu__link">Kontact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__content" style="background-image: url(images/header-bg.svg);">
+            <h1 class="header__title">
+                Rekonstrukce Bytů V Brně
+            </h1>
+            <p class="header__text">
+                Vlastníte byt v Brně či okolí a zvažujete jeho rekonstrukci?
+            </p>
+            <a href="tel:774487333" class="btn">ZÁKAZNICKÁ LINKA</a>
+        </div>
+    </div>
+</header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about__info">
+                <div class="about__content">
+                    <h2 class="title about__title">
+                        O nás
+                    </h2>
+                    <p class="about__text">
+                        S praxí od roku 2018 provádíme odborné rekonstrukce bytů v Brně a okolí. Během celé rekonstrukce
+                        jednají klienti pouze s námi, nabízíme komplexní servis bez zásahu jiných firem do realizovaných
+                        činností. Díky dlouhodobému fungování máme špičkově proškolené zaměstnance schopné přizpůsobit
+                        se i nestandardním rekonstrukcím a kalkulace uvedené v položkovém rozpočtu vždy dodržujeme.
+                        Realizujeme kompletní přestavbu bytů se všemi službami, které k ní náleží. Od bouracích prací a
+                        odvozu stavebního odpadu včetně jeho likvidace, přes samotnou rekonstrukci až po závěrečné
+                        předání díla včetně všech potřebných protokolů a provedení finálního úklidu. Vždy dodržujeme
+                        pracovní doby povolené bytovým družstvem či sdružením vlastníků a při provádění prací jsme
+                        maximálně ohleduplní k sousedům. Naším cílem je maximální spokojenost klienta, rádi Vám s
+                        čímkoliv poradíme a ušetříme Váš čas i peníze
+                    </p>
+                </div>
+                <div class="about__contact">
+                    <span class="about__span">Mate ješte nejake otazky?</span>
+                    <a href="tel:774487333" class="btn about__btn">Volejte!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="info">
+        <div class="container">
+            <div class="info__content">
+                <h2 class="title info__discr">Služby</h2>
+                <div class="info__about">
+                    <ul class="info__list">
+                        <li class="info__li info__li--title">
+                            Kompletní rekonstrukce
+                        </li>
+                        <li class="info__li">
+                            provádění rekonstrukcí rodinných domů
+                        </li>
+                        <li class="info__li">
+                            provádění rekonstrukcí kanceláří a jiných objektů
+                        </li>
+                        <li class="info__li">
+                            provádění rekonstrukcí kuchyní
+                        </li>
+                        <li class="info__li">
+                            provádění rekonstrukcí koupelen a wc
+                        </li>
+                        <li class="info__li">
+                            malování interiéru
+                        </li>
+                    </ul>
+                    <ul class="info__list">
+                        <li class="info__li info__li--title">
+                            Stavební a zednické práce
+                        </li>
+                        <li class="info__li">
+                            přestavby bytových jader
+                        </li>
+                        <li class="info__li">
+                            ruční broušení sádrových omítek
+                        </li>
+                        <li class="info__li">
+                            zdění
+                        </li>
+                        <li class="info__li">
+                            montáže sádrokartonů
+                        </li>
+                    </ul>
+                    <ul class="info__list">
+                        <li class="info__li info__li--title">
+                            Pokládka podlah
+                        </li>
+                        <li class="info__li">
+                            plovoucí podlahy
+                        </li>
+                        <li class="info__li">
+                            laminátové podlahy
+                        </li>
+                        <li class="info__li">
+                            linolea
+                        </li>
+                        <li class="info__li">
+                            dlažba, stěrkování
+                        </li>
+                    </ul>
+                    <ul class="info__list">
+                        <li class="info__li info__li--title">
+                            Další služby
+                        </li>
+                        <li class="info__li">
+                            instalace elektřiny
+                        </li>
+                        <li class="info__li">
+                            instalace plynu
+                        </li>
+                        <li class="info__li">
+                            zajištění dopravy materiálu
+                        </li>
+                        <li class="info__li">
+                            zajištění stavebního materiálu
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h2 class="title info__title">
+                Proč do toho jít s námi:
+            </h2>
+            <div class="info__inner">
+                <div class="info__item info__item--1">Prvotřídní realizace</div>
+                <div class="info__item info__item--2">Navrhneme ideální postup</div>
+                <div class="info__item info__item--3">Zpracujeme projekt</div>
+                <div class="info__item info__item--4">Dokončeno v termínu</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio__top">
+                <h2 class="title portfolio__title">Galerie</h2>
+            </div>
+            <div class="portfolio__content">
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images" data-fancybox="gallery">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <img src="images/bg.png" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+                        SHOW PROJECT
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <div class="price" id="price">
+        <div class="container">
+            <div class="price__info">
+                <img src="images/price.svg" alt="price photo" class="price__img">
+                <div class="price__content">
+                    <h2 class="title price__title">Ceník</h2>
+                    <div class="price__text">
+                        <p>Každá kompletní rekonstrukce bytu realizovaná naší firmou je připravovaná klientovi na míru.
+                            Pro
+                            Vaši
+                            představu o cenách prací objednávaných u naší firmy nás laskavě <a class="price__link"
+                                href="tel:774 487 333">kontaktujte</a>. Na základě Vaší poptávky si s Vámi domluvíme
+                            schůzku
+                            v
+                            místě plánované realizace, projdeme si s Vámi Váš záměr a připravíme pro Vás předběžný
+                            rozpis
+                            prací.
+                            Pokud Vám orientační cenová nabídka vyhovuje, začneme společně s přípravou zakázky a s
+                            výběrem
+                            vybavení a dekorů. Následně připravíme aktualizovaný rozpis prací, který již bude obsahovat
+                            veškeré
+                            vybavení podle Vaší volby.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+<footer class="footer" id="contact">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__info">
+                <a href="#home" class="logo">Rekonstrukce</a>
+                <span class="footer__adresa">
+                    Sídlo firmy: Křižíkova 180/28, Karlín, 186 00 Praha
+                </span>
+                <span class="footer__span">IČO: 06871461</span>
+            </div>
+            <ul class="footer__contact">
+                <li class="footer__item">
+                    Kontact
+                </li>
+                <li class="footer__item footer__item--phone">
+                    <a href="#tel:774487333" class="footer__link">+420 774 487 333</a>
+                </li>
+                <li class="footer__item footer__item--mail">
+                    <a href="mailto:dadanakta@centrum.cz" class="footer__link">dadanakta@centrum.cz</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+<div class="footer__copy">Copyright © 2018 - 2021 Dadan Akta s.r.o.</div>
+  
+    
   </body>
 </html>
