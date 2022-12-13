@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reconstrukce-project/static/css/main.551ca304.css",
+    "main.js": "/reconstrukce-project/static/js/main.e66f2c44.js",
+    "index.html": "/reconstrukce-project/index.html",
+    "static/media/3.svg": "/reconstrukce-project/static/media/3.691421ddfde0aadc214e.svg",
+    "static/media/2.svg": "/reconstrukce-project/static/media/2.0675bf6ff78dbd35045a.svg",
+    "static/media/4.svg": "/reconstrukce-project/static/media/4.538512ec9f3b47118178.svg",
+    "static/media/1.svg": "/reconstrukce-project/static/media/1.388ba71ea10cf6e3dfcd.svg",
+    "static/media/phone.svg": "/reconstrukce-project/static/media/phone.01cfdb1abc928444d051.svg",
+    "static/media/tel.svg": "/reconstrukce-project/static/media/tel.ee59c1f97d164ac66896.svg",
+    "static/media/Logo.svg": "/reconstrukce-project/static/media/Logo.42d90c7a791a1e0a5a4b.svg",
+    "static/media/mail.svg": "/reconstrukce-project/static/media/mail.dec6136c5a4e6d3b7d56.svg",
+    "main.551ca304.css.map": "/reconstrukce-project/static/css/main.551ca304.css.map",
+    "main.e66f2c44.js.map": "/reconstrukce-project/static/js/main.e66f2c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.551ca304.css",
+    "static/js/main.e66f2c44.js"
+  ]
+}
